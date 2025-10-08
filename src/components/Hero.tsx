@@ -15,7 +15,7 @@ const Hero = () => {
                     playsInline
                     className="w-full h-full object-cover"
                 >
-                    <source src="/navessa.crdownload" type="video/mp4" />
+                    <source src="/hero-video" type="video/mp4" />
                     {/* Fallback image if video fails to load */}
                     <img
                         src={heroImage}
